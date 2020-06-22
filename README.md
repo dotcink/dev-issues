@@ -15,3 +15,13 @@
 - logcat: `I/IntentFilterIntentOp: Verification 28 complete. Success:true. Failed hosts:.`
 - `adb shell dumpsys package domain-preferred-apps` 显示 `Status:  always : ...`
 
+# Python
+
+## pyecharts
+
+### Setup
+
+1. `pip install pyecharts`
+2. `pip install snapshot_selenium` to export images
+  1. Download [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/home) and install to PATH
+3. `python3`
