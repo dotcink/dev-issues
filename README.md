@@ -15,6 +15,17 @@
 - logcat: `I/IntentFilterIntentOp: Verification 28 complete. Success:true. Failed hosts:.`
 - `adb shell dumpsys package domain-preferred-apps` 显示 `Status:  always : ...`
 
+# iOS
+
+### "Authenticating with the App Store" when uploading to App Store
+
+```
+mv ~/Library/Caches/com.apple.amp.itmstransporter{,_bak}
+# may take a LONG time
+/Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Versions/A/itms/bin/iTMSTransporter
+# Restart Xcode
+```
+
 # Python
 
 ## pyecharts
